@@ -23,7 +23,8 @@ let styles ={
         zIndex: '100',
         borderStyle: "none",
         outline: "none",
-        cursor: "pointer"
+        cursor: "pointer",
+        opacity: "1"
     },
     left: {
         marginRight: 0
@@ -44,7 +45,7 @@ let styles ={
         transition: "all 0.2s ease-in"
     },
     hidden: {
-        display: "none"
+        opacity: 0
     }
 }
 
